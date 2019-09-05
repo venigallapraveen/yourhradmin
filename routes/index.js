@@ -7,19 +7,22 @@ router.get("/", function(req, res, next) {
 });
 
 router.get("/admin", function(req, res, next) {
-  res.render("pages/admin", { pageLink: "/admin", buttonColor: "is-warning" });
+  res.render("pages/admin", {
+    pageLink: "https://forms.gle/dQaZ8DbidvFRoDaZ7",
+    buttonColor: "is-warning"
+  });
 });
 
 router.get("/recruiter", function(req, res, next) {
   res.render("pages/recruiter", {
-    pageLink: "/recruiter",
+    pageLink: "https://forms.gle/dQaZ8DbidvFRoDaZ7",
     buttonColor: "is-link"
   });
 });
 
 router.get("/consultant", function(req, res, next) {
   res.render("pages/consultant", {
-    pageLink: "/consultant",
+    pageLink: "https://forms.gle/dQaZ8DbidvFRoDaZ7",
     buttonColor: "is-danger"
   });
 });
