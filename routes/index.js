@@ -8,21 +8,21 @@ router.get("/", function(req, res, next) {
 
 router.get("/admin", function(req, res, next) {
   res.render("pages/admin", {
-    pageLink: "https://forms.gle/dQaZ8DbidvFRoDaZ7",
+    pageLink: "https://forms.gle/Rd97qzx1S6aTdGRx6",
     buttonColor: "is-warning"
   });
 });
 
 router.get("/recruiter", function(req, res, next) {
   res.render("pages/recruiter", {
-    pageLink: "https://forms.gle/dQaZ8DbidvFRoDaZ7",
+    pageLink: "https://forms.gle/Rd97qzx1S6aTdGRx6",
     buttonColor: "is-link"
   });
 });
 
 router.get("/consultant", function(req, res, next) {
   res.render("pages/consultant", {
-    pageLink: "https://forms.gle/dQaZ8DbidvFRoDaZ7",
+    pageLink: "https://forms.gle/Rd97qzx1S6aTdGRx6",
     buttonColor: "is-danger"
   });
 });
